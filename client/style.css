@@ -5,7 +5,7 @@ html{
 body {
   margin: 0;
   height: 125vh; 
-  background-image: url('C:/Users/orbit_24ts2or/OneDrive/שולחן העבודה/4InARow/client/pics/assets_task_01k5vdm3v2enr8web70278f0p9_1758635772_img_1.png');
+  background-image: url('./pics/assets_task_01k5vdm3v2enr8web70278f0p9_1758635772_img_1.png');
   background-size: cover; 
   background-position: center;  
   background-repeat: no-repeat; 

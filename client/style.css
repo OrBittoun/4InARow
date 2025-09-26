@@ -1,0 +1,141 @@
+html{
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  height: 125vh; 
+  background-image: url('C:/Users/orbit_24ts2or/OneDrive/שולחן העבודה/4InARow/client/pics/assets_task_01k5vdm3v2enr8web70278f0p9_1758635772_img_1.png');
+  background-size: cover; 
+  background-position: center;  
+  background-repeat: no-repeat; 
+  padding: 0;
+
+}
+
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  color: white;       
+  font-size: 2.5em;
+  font-family: 'Playpen Sans Hebrew', Inter, sans-serif;
+}
+
+
+#joinBtn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+#joinBtn ,#username {
+  background: rgba(255, 255, 255, 0.15);   
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: 1px solid rgba(255, 255, 255, 0.3); 
+  border-radius: 30px;
+  padding: 12px 24px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s, background 0.3s;
+}
+
+#joinBtn:hover r {
+  transform: scale(1.05);
+  background: rgba(255, 255, 255, 0.25); 
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+#username::placeholder {
+  color: white;            
+}
+
+.modal-content {
+  display: flex;              
+  align-items: center;        
+  gap: 20px;                  
+}
+
+#refImage {
+  width: 150px;               
+  height: auto;
+}
+
+#board {
+  border: 3px solid white;    
+  border-radius: 10px;        
+  background-color: rgba(0,0,0,0.3); 
+}
+
+#content {
+  flex: 1; 
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+  flex-direction: column;  
+  gap: 20px;              
+}
+
+#board table {
+  margin: 0 auto; 
+  border-spacing: 10px; 
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.cell:hover {
+  transform: scale(1.1); 
+}
+
+#controls {
+  margin-top: 20px;
+}
+
+#controls button {
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+dialog {
+  border: none;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  max-width: 400px;
+}
+
+.board-wrapper {
+  position: relative; 
+  display: inline-block;
+}
+
+#messages {
+  position: absolute;
+  top: -30px;          
+  left: 67%;
+  white-space: nowrap;
+  transform: translateX(-50%);
+  font-size: 1.5rem;
+  font-family: 'Playpen Sans Hebrew', sans-serif;
+  font-weight: bold;
+  color: rgb(11, 232, 232);
+  text-shadow: 1px 1px 3px black; 
+}
+
+
+
+
+
+
+
+
+
+

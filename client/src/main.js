@@ -4,11 +4,15 @@ let currentPlayer = null;
 
 socket.onopen = () => {
   console.log("Connected to server");
+
+  const username = prompt("איך קוראים לך?") || "Player";
+  socket.send(JSON.stringify({ type: "join", username }));
 };
 
 socket.onerror = (err) => {
   console.error("WebSocket error:", err);
 };
+
 
 socket.onmessage = (event) => {
   let data;
